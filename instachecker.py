@@ -16,7 +16,7 @@ else:
     os.system("clear")
 
 
-def rhaby(s):
+def dolce(s):
     for ASU in s + '\n':
         sys.stdout.write(ASU)
         sys.stdout.flush()
@@ -32,13 +32,14 @@ __banner__ = """\033[1;33m
  ░░╔══╝░╚═╚════╗  Telegram: @termux_HD
 =============================================="""
 print(__banner__)
-rhaby("  [ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]")
-rhaby("  [ϟ]---------------------[ϟ]")
-rhaby("  [ϟ]--[1]-Hashtag-User---[ϟ]")
-rhaby("  [ϟ]--[2]-Insta-Checker--[ϟ]")
-rhaby("  [ϟ]---------------------[ϟ]")
-rhaby("  [ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]")
-ali1 = input("  [+] Enter Number Tool : ")
+dolce("  [ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]")
+dolce("  [ϟ]---------------------[ϟ]")
+dolce("  [ϟ]--[1]-Hashtag-User---[ϟ]")
+dolce("  [ϟ]--[2]-Insta-Checker--[ϟ]")
+dolce("  [ϟ]---------------------[ϟ]")
+dolce("  [ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]")
+dolce(" ")
+ali1 = input("  [ϟ] Enter Number Tool : ")
 if ali1 == '2':
     import requests
     import os
@@ -226,7 +227,7 @@ if ali1 == '1':
     }
 
     ruks = requests.Session()
-    rhaby = 'Welcome To Hashtag User'
+    dolce = 'Welcome To Hashtag User'
 
     #===============================#
     m1 = input('Hashtag_1 : '+ruks_h)
