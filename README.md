@@ -9,9 +9,9 @@ $ pkg install git
 $ pip install requests
 $ pip install mechanize
 $ pip install bs4
-$ git clone https://github.com/rhaby/Export-email-insta
-$ cd Export-email-insta
+$ git clone https://github.com/0Riddle0/insta-ch
+$ cd insta-ch
 $ python3 instachecker
 ```
-#Telegarm | @ciku370
+#Telegarm | @
 #Telegarm | @rhaby
