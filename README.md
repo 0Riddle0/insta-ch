@@ -6,19 +6,19 @@
 
 ## Installation :
 
-$ `apt update`
-$ `apt upgrade`
-$ `pkg install python`
-$ `pkg install git`
-$ `pip install requests`
-$ `pip install mechanize`
-$ `pip install bs4`
-$ `git clone https://github.com/0Riddle0/insta-ch`
+* `apt update`
+* `apt upgrade`
+* `pkg install python`
+* `pkg install git`
+* `pip install requests`
+* `pip install mechanize`
+* `pip install bs4`
+* `git clone https://github.com/0Riddle0/insta-ch`
 
 ## Run :
 
-$ `cd insta-ch`
-$ `python3 instachecker`
+* `cd insta-ch`
+* `python3 instachecker`
 
 ## Find Me on :
 [![Github](https://img.shields.io/badge/Github-0Riddle0-green?style=for-the-badge&logo=github)](https://github.com/0Riddle0)
