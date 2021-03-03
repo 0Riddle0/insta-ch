@@ -28,16 +28,16 @@ __banner__ = """\033[1;33m
  ░░╚══╗░╔═╔════╝  Dolce - Instagram Checker
  ╚═╦═╗╠═╩═╩╗╔═╦═╗ Author: riDDle*
  ░░║▒╠╣▒▒▒▒╠╣▒║▒║ Version: 1.0v
- ╔═╩═╝╠═╦═╦╝╚═╩═╝ Developer: Mr0Riddle0
+ ╔═╩═╝╠═╦═╦╝╚═╩═╝ Developer: @Mr0Riddle0
  ░░╔══╝░╚═╚════╗  Telegram: @termux_HD
 =============================================="""
 print(__banner__)
-rhaby("  [×]-[×]-[×]-[×]-[×]-[×]-[×]")
-rhaby("  [×]---------------------[×]")
-rhaby("  [×]--[1]-Hashtag-User---[×]")
-rhaby("  [×]--[2]-Insta-Checker--[×]")
-rhaby("  [×]---------------------[×]")
-rhaby("  [×]-[×]-[×]-[×]-[×]-[×]-[×]")
+rhaby("  [ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]")
+rhaby("  [ϟ]---------------------[ϟ]")
+rhaby("  [ϟ]--[1]-Hashtag-User---[ϟ]")
+rhaby("  [ϟ]--[2]-Insta-Checker--[ϟ]")
+rhaby("  [ϟ]---------------------[ϟ]")
+rhaby("  [ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]-[ϟ]")
 ali1 = input("  [+] Enter Number Tool : ")
 if ali1 == '2':
     import requests
@@ -125,10 +125,10 @@ if ali1 == '2':
                 response = requests.Session().get(url, data=payload, headers=headers)
                 email = (response.json()["user"]["public_email"])
                 if (email == ""):
-                    print(' [×]' * 15)
+                    print(' [ϟ]' * 15)
                     print ("The User Don't Have Email")
                 else:
-                    print(' [×]' * 15)
+                    print(' [ϟ]' * 15)
                     print(" User: {}".format(self.username))
                     print(" Followers: {}".format(info["Followers"]))
                     print(" Following: {}".format(info["Following"]))
