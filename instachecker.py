@@ -32,13 +32,11 @@ __banner__ = """\033[1;33m
  ░░╔══╝░╚═╚════╗  Telegram: @termux_HD
 =============================================="""
 print(__banner__)
-rhaby("$ [×]-[×]-[×]-[×]-[×]-[×]-[×]-[×]")
-rhaby("$ 1- Hashtag User")
-rhaby("$")
-rhaby("$ [×]-[×]-[×]-[×]-[×]-[×]-[×]-[×]")
-rhaby("$ 2- Insta Checker")
-rhaby("$")
-ali1 = input("$ Enter Number Tool : ")
+rhaby("  [×]-[×]-[×]-[×]-[×]-[×]-[×]")
+rhaby("  [×] [1] Hashtag User [×]")
+rhaby("  [×] [2] Insta Checker [×]")
+rhaby("  [×]-[×]-[×]-[×]-[×]-[×]-[×]")
+ali1 = input("[+] Enter Number Tool : ")
 if ali1 == '2':
     import requests
     import os
