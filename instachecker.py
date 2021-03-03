@@ -33,10 +33,12 @@ __banner__ = """\033[1;33m
 =============================================="""
 print(__banner__)
 rhaby("  [×]-[×]-[×]-[×]-[×]-[×]-[×]")
-rhaby("  [×] [1] Hashtag User [×]")
-rhaby("  [×] [2] Insta Checker [×]")
+rhaby("  [×]---------------------[×]")
+rhaby("  [×]--[1]-Hashtag-User---[×]")
+rhaby("  [×]--[2]-Insta-Checker--[×]")
+rhaby("  [×]---------------------[×]")
 rhaby("  [×]-[×]-[×]-[×]-[×]-[×]-[×]")
-ali1 = input("[+] Enter Number Tool : ")
+ali1 = input("  [+] Enter Number Tool : ")
 if ali1 == '2':
     import requests
     import os
