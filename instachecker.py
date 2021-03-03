@@ -28,7 +28,7 @@ __banner__ = """\033[1;33m
  ░░╚══╗░╔═╔════╝  Dolce - Instagram Checker
  ╚═╦═╗╠═╩═╩╗╔═╦═╗ Author: riDDle*
  ░░║▒╠╣▒▒▒▒╠╣▒║▒║ Version: 1.0v
- ╔═╩═╝╠═╦═╦╝╚═╩═╝ Telegram: @Mr0Riddle0
+ ╔═╩═╝╠═╦═╦╝╚═╩═╝ Developer: Mr0Riddle0
  ░░╔══╝░╚═╚════╗  Telegram: @termux_HD
 =============================================="""
 print(__banner__)
@@ -239,6 +239,7 @@ if ali1 == '1':
     #===============================#
     print('Dolce - Instagram Hashtags')
     print('Developer - @Mr0Riddle0')
+    print('Telegram - @termux_HD')
     print('='*60) 
     def ruks1():
             try:
